@@ -3,25 +3,53 @@
 <head>
 	<meta charset="UTF-8">
 	<title>default</title>
+	<link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
 <header>
 	<nav>
 		<ul>
-			<li> <a href="/index.html" class="click">Home</a></li>
-			<li> <a href="/about/index.html" class="click">About</a></li>
-			<li> <a href="/news.html" class="click">News 22</a></li>
+			<li> <a href="/index.html" class="current">Home</a></li>
+			<li> <a href="/about/index.html" class="">About</a></li>
+			<li> <a href="/news.html" class="">News</a></li>
 		</ul>
 	</nav>
 
 </header>
+<br />
 
 	<h1>A site to bring tears to your ears</h1>
 <h2>Donagh's intentions are good</h2>
 <p>This is a great way to deliver a blog, no</p>
+<p>======================</p>
+<?php
+
+echo "Surprised?";
+
+?>
+<script>
+	function funny() {
+	document.getElementById("clue").innerHTML = "Surprise !!";
+}
+</script>
+
+<p id="clue" onclick="funny()" >=======Press here======</p>
 
 
 
+<footer>
+	
+	<nav>
+		<ul>
+			<li> <a href="/index.html" class="current">Home</a></li>
+			<li> <a href="/about/index.html" class="">About</a></li>
+			<li> <a href="/news.html" class="">News</a></li>
+		</ul>
+	</nav>
+<br />
+<p>&copy;&nbsp; Donagh 2015</p>
+<p>A Jekyll site</p>
+</footer>
 </body>
 </html>

@@ -3,23 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>default</title>
+	<link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
 </head>
 
 <body>
 <header>
-	<nav>
-		<ul>
-			<li> <a href="{{site.baseurl}}/index.html" class="click">Home</a></li>
-			<li> <a href="{{site.baseurl}}/about/index.html" class="click">About</a></li>
-			<li> <a href="{{site.baseurl}}/news.html" class="click">News 22</a></li>
-		</ul>
-	</nav>
+{% include nav.html %}
 
 </header>
+<br />
 
 	{{content}}
+<p>======================</p>
+<?php
+
+echo "Surprised?";
+
+?>
+<script>
+	function funny() {
+	document.getElementById("clue").innerHTML = "Surprise !!";
+}
+</script>
+
+<p id="clue" onclick="funny()" >=======Press here======</p>
 
 
 
+<footer>
+	
+{% include nav.html %}
+<br />
+<p>&copy;&nbsp; Donagh 2015</p>
+<p>A Jekyll site</p>
+</footer>
 </body>
 </html>
