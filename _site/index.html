@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-8">
 	<title>default</title>
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	
+	
 </head>
 
 <body>
+<div class="container-fluid">
+<div class="row">
 <header>
 	<nav>
 		<ul>
-			<li> <a href="/index.html" class="current">Home</a></li>
-			<li> <a href="/about/index.html" class="">About</a></li>
-			<li> <a href="/news.html" class="">News</a></li>
+			<li> <a href="/index.html"  class = "btn btn-default" >Home</a></li>
+			<li> <a href="/about/index.html" class="btn btn-default">About</a></li>
+			<li> <a href="/news.html"  class = "btn btn-default" >News</a></li>
 		</ul>
 	</nav>
 
 </header>
 <br />
+</div>
 
+<div class="row">
+
+<div class="col-md-2">
+	<p>??</p>
+</div> <!-- sidebar-->
+
+<div class="col-md-5" id="left-content">
+	
 	<h1>A site to bring tears to your ears</h1>
 <h2>Donagh's intentions are good</h2>
-<p>This is a great way to deliver a blog, no</p>
-<p>======================</p>
-<?php
-
-echo "Surprised?";
-
-?>
-<script>
-	function funny() {
-	document.getElementById("clue").innerHTML = "Surprise !!";
-}
-</script>
-
-<p id="clue" onclick="funny()" >=======Press here======</p>
+<p>This is a great way to deliver a blog, no</p> 
 
 
+</div><!-- "col-md-5" -->
 
+<div class="col-md-5" id="right-content">
+<p>Not to be neglected</p>
+
+</div>
+</div> <!-- ".row -->
+
+<div class="row" id="footer">
 <footer>
-	
+	<span>?f</span>
 	<nav>
 		<ul>
-			<li> <a href="/index.html" class="current">Home</a></li>
-			<li> <a href="/about/index.html" class="">About</a></li>
-			<li> <a href="/news.html" class="">News</a></li>
+			<li> <a href="/index.html"  class = "btn btn-default" >Home</a></li>
+			<li> <a href="/about/index.html" class="btn btn-default">About</a></li>
+			<li> <a href="/news.html"  class = "btn btn-default" >News</a></li>
 		</ul>
 	</nav>
 <br />
+<br />
 <p>&copy;&nbsp; Donagh 2015</p>
-<p>A Jekyll site</p>
+<small>A Jekyll site</small>
 </footer>
+</div><!-- footer -->
+</div> <!-- .container-fluid -->
 </body>
 </html>

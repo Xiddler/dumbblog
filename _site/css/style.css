@@ -14,12 +14,11 @@ color: #fff;
 
 li {
 	list-style-type: none;
-
 	text-align: center;
 	border: 1px solid #000;
 	border-radius: 3px;
-	max-width: 60px;
-	margin-left: 2px;
+	/*max-width: 60px;*/
+	margin-left: 5px;
 	float: left;
 
 }
@@ -29,3 +28,43 @@ a {
 	padding: 0 5px 0 5px;
 
 }
+
+
+footer{
+	background-color: #ddd;
+}
+
+
+
+/* =====================BOOTSTRAP OVERRULES ==========================*/
+.container-fluid{
+	/*border: 2px dashed #000;*/
+}
+
+
+.col-md-2{
+	/*border: 1px solid red;*/
+}
+
+
+.col-md-5 {
+	/*border: 1px solid blue;*/
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

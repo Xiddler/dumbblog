@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: A wonderful thing for love
 ---
+<br />
 
-<p>This is a great way to spend the afternoon</p>
+<p>This is a great way to spend the afternoon. Wednesday 3am</p>

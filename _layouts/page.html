@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>About</title>
-</head>
+{% include head.html %}
 <body>
-	{{ content }}
+	
+<ul>
+ {% for post in site.posts %} 
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ site.post }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+
 </body>
 </html>
