@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+
+  <!-- This page lists all the posts: use Limit 5 to limit to 5-->
+<ul>
+  {% for post in site.posts limit: 7 %} 
+    <li class="post">
+       <!--<a href="{{ post.url }}">{{ post.title }}</a>-->
+       <h3>{{ post.title }}</h3>
+      <p>{{ post.content }}</p>
+ 		<hr />
+    </li>
+  {% endfor %}
+</ul>

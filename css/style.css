@@ -6,6 +6,11 @@ padding:0;
 
 }
 
+header{
+	padding:2%;
+}
+
+
 .current {
 background-color: #1122ff;
 color: #fff;
@@ -14,7 +19,7 @@ color: #fff;
 
 li {
 	list-style-type: none;
-	text-align: center;
+	text-align: left;
 	border: 1px solid #000;
 	border-radius: 3px;
 	/*max-width: 60px;*/
@@ -32,12 +37,34 @@ a {
 
 footer{
 	background-color: #ddd;
+	padding-left: 2%
+}
+
+li.post{
+	width: 750px;
+	border: none;
+	text-align: left;
+
+}
+
+li.post-sidebar{
+	font-size: 70%;
+	border:none;
+	margin-bottom: 5px;
+	float:left;
+	margin-left: -15%;
+}
+
+span.date{
+	float: left;
+	font-size: 60%;
 }
 
 
 
 /* =====================BOOTSTRAP OVERRULES ==========================*/
-.container-fluid{
+
+.container-fluid {
 	/*border: 2px dashed #000;*/
 }
 
@@ -46,20 +73,22 @@ footer{
 	/*border: 1px solid red;*/
 }
 
+.col-md-3{
+	border: 1px solid #aeaeae;
 
+}
 .col-md-5 {
 	/*border: 1px solid blue;*/
 	color:#000;
 }
 
 
+.col-md-2 ul li {
+	margin-top: 5%;
+}
 
 
-
-
-
-
-
+/* =====================BOOTSTRAP OVERRULES ==========================*/
 
 
 

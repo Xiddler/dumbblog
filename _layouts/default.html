@@ -3,33 +3,33 @@
 {%  include head.html %}
 
 <body>
+
 <div class="container-fluid">
-<div class="row">
-<header>
-{% include nav.html %}
 
-</header>
-<br />
-</div>
+	{% include header.html %}
+<hr />
+<div class="row" id="content">
 
-<div class="row">
-
-<div class="col-md-2">
-	<p>??</p>
+<div class="col-md-3">
+	<p>Archived posts</p>
+	<ul>
+ 	{% for post in site.posts  %} 
+    	<li class="post-sidebar">
+       		{{ post.date | date: "%-d %B %Y" }}<a href="{{ post.url }}">{{ post.title }}</a>
+     	</li>
+  	{% endfor %}
+	</ul>
 </div> <!-- sidebar-->
 
-<div class="col-md-5" id="left-content">
+<div class="col-md-9" id="left-content">
 	
-	{{content}} 
+	{{content}}
 
 
-</div><!-- "col-md-5" -->
+</div><!-- close "col-md-9" -->
 
-<div class="col-md-5" id="right-content">
-<p>Not to be neglected</p>
 
-</div>
-</div> <!-- ".row -->
+</div> <!-- ".row closes #content-->
 
 {% include footer.html %}
 </div> <!-- .container-fluid -->

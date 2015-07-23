@@ -2,6 +2,17 @@
 layout: default
 ---
 
-<h1>A site to bring tears to your ears</h1>
-<h2>Donagh's intentions are good</h2>
-<p>This is a great way to deliver a blog, no</p>
+
+<ul>
+  {% for post in site.posts limit: 6 %} 
+    
+    <li class="post">
+        
+        <h3>{{ post.title }}</h3>
+        <p>{{post.excerpt}}</p>
+      
+      <hr />
+      
+    </li>
+  {% endfor %}
+</ul>

@@ -13,5 +13,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 exclude: ['README.md', '_site']
+paginate: 1 # this is just for an example
+excertp_separator: "<!--more-->"
 
 

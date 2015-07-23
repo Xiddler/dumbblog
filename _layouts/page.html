@@ -2,15 +2,19 @@
 {% include head.html %}
 <body>
 	
-<ul>
- {% for post in site.posts %} 
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ site.post }}</p>
-    </li>
-  {% endfor %}
-</ul>
-
-
+<div class="container-fluid">
+<div class="rows">
+<div class="col-md-2">
+<ul><li> <a href="{{site.baseurl}}/index.html"  class = "btn btn-default" >Back</a></li></ul></div>
+<br />
+<div class="col-md-10">
+<strong>{{ page.date | date: "%-d %B %Y" }}</strong>
+<hr />
+{{page.title}}
+<hr />
+{{content}}
+</div>
+</div>
+</div>
 </body>
 </html>
