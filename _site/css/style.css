@@ -66,6 +66,7 @@ span.date{
 
 .container-fluid {
 	/*border: 2px dashed #000;*/
+
 }
 
 
@@ -74,7 +75,7 @@ span.date{
 }
 
 .col-md-3{
-	border: 1px solid #aeaeae;
+	border-right: 1px solid #aeaeae;
 
 }
 .col-md-5 {
