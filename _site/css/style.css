@@ -1,4 +1,4 @@
-html {
+body {
 font-family: Verdana, sans-serif;
 color: #333;
 margin:0;
@@ -8,6 +8,32 @@ padding:0;
 
 header{
 	padding:2%;
+
+/*................testing....................*/
+/*	border: 2px dotted red;*/
+}
+
+header h1,h5 {
+	padding-left:4%;
+	width: 100%;
+
+/*................testing....................*/
+	/*border: 2px dotted blue;*/
+}
+
+
+div#header{
+
+/*................testing....................*/
+/*	border: 2px dotted pink;*/
+}
+
+
+div.row#content{
+	clear:left;
+
+/*................testing....................*/
+	/*background-color: #ababab;*/
 }
 
 
@@ -22,7 +48,6 @@ li {
 	text-align: left;
 	border: 1px solid #000;
 	border-radius: 3px;
-	/*max-width: 60px;*/
 	margin-left: 5px;
 	float: left;
 
@@ -41,18 +66,25 @@ footer{
 }
 
 li.post{
-	width: 750px;
+	width: 100%;
 	border: none;
 	text-align: left;
 
 }
 
 li.post-sidebar{
+	width:80%;
 	font-size: 70%;
 	border:none;
 	margin-bottom: 5px;
-	float:left;
-	margin-left: -15%;
+	float:none;
+	margin-left: -10%;
+}
+
+li.post h3,p {
+	width:100%;
+	clear:right;
+
 }
 
 span.date{
@@ -61,37 +93,50 @@ span.date{
 }
 
 
+div#right-content{
+	display:inline-block;
+	max-width: 300px;
+
+
+/*................testing....................*/
+/*	border: 2px dashed green;*/
+}
 
 /* =====================BOOTSTRAP OVERRULES ==========================*/
 
 .container-fluid {
-	/*border: 2px dashed #000;*/
+/*	border: 2px dashed #000;*/
 
 }
 
-
-.col-md-2{
-	/*border: 1px solid red;*/
-}
 
 .col-md-3{
-	border-right: 1px solid #aeaeae;
-
-}
-.col-md-5 {
-	/*border: 1px solid blue;*/
-	color:#000;
-}
+	float: none;
+	border-right: 1px solid #eaeaea;
 
 
-.col-md-2 ul li {
-	margin-top: 5%;
+/*         testing                  */
+/*	border: 1px solid red;*/
+
+
 }
+
+
+
+
 
 
 /* =====================BOOTSTRAP OVERRULES ==========================*/
 
+/* =====================Handling responsiveness ==========================*/
 
+div.long{
+/*	height:0;
+	width: 100%;
+
+	border: 3px solid red;*/
+
+}
 
 
 
