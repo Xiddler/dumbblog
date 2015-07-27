@@ -1,8 +1,7 @@
 ---
 layout: page
 ---
-
-There was a man, a lonely man. Pneumoncocvolcanoconiosisinmississipimissou risupercalafragalisticexpealidociousantidisestablishmentarianismindepentendlyasin
+There was a man, a brilliant man. Pneumoncocvolcanoconiosisinmississipimissou risupercalafragalisticexpealidociousantidisestablishmentarianismindepentendlyasin
 Who lived his life As if it was real...
 
 

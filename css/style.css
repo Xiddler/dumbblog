@@ -65,12 +65,7 @@ footer{
 	padding-left: 2%
 }
 
-li.post{
-	width: 100%;
-	border: none;
-	text-align: left;
 
-}
 
 li.post-sidebar{
 	width:80%;
@@ -79,6 +74,7 @@ li.post-sidebar{
 	margin-bottom: 5px;
 	float:none;
 	margin-left: -10%;
+
 }
 
 li.post h3,p {
@@ -92,10 +88,15 @@ span.date{
 	font-size: 60%;
 }
 
+li.post{
+	width: 100%;
+	border: none;
+	text-align: left;
+}
 
 div#right-content{
-	display:inline-block;
-	max-width: 300px;
+/*	display:inline-block;*/
+/*	max-width: 300px;*/
 
 
 /*................testing....................*/
@@ -109,6 +110,11 @@ div#right-content{
 
 }
 
+.col-md-2 li{
+	margin-left: -8%;
+
+
+}
 
 .col-md-3{
 	float: none;
