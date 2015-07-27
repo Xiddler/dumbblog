@@ -6,9 +6,25 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jul 2015 21:37:19 +0100</pubDate>
-    <lastBuildDate>Mon, 27 Jul 2015 21:37:19 +0100</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2015 22:12:09 +0100</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2015 22:12:09 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>I Can Edit Using Prose Io I Just Did</title>
+        <description>&lt;h2 id=&quot;i-can-edit-using-roseio-woohoo&quot;&gt;I can edit using rose.io. Woohoo.&lt;/h2&gt;
+
+&lt;p&gt;It’s 19:12 and I ve just opened this account with prose.io in the last minute. It is a text editor that alllows me to open a file in the remote repo of my dumbblog and make changes. This would make it easy for a client I think.&lt;/p&gt;
+
+&lt;p&gt;But i had to chamge the YAML front matter from Published: false to Layout: page&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 27 Jul 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/2015/07/27/I-can-edit-using-prose-io-I-just-did.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/07/27/I-can-edit-using-prose-io-I-just-did.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Getting In The Way Of A Great Song</title>
