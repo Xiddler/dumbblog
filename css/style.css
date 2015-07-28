@@ -5,9 +5,15 @@ margin:0;
 padding:0;
 
 }
+span.blog_title{
+	font-size: 2em;
+	padding-left: 3%;
+	padding-right: 3%;
+}
 
 header{
-	padding:2%;
+	padding-left:6%;
+	padding-top:2%;
 
 /*................testing....................*/
 /*	border: 2px dotted red;*/
