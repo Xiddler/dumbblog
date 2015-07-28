@@ -2,26 +2,26 @@
 {% include head.html %}
 <body>
 	<br />
-<div class="container-fluid">
-<div class="rows">
-<div class="col-md-2">
-<p>wallah wallah</p>
-<ul>
-<li> 
-<a href="{{site.baseurl}}/index.html"  class = "btn btn-default" >Home</a>
-</li>
-</ul></div>
-<br /><br /><br />
-<div class="col-md-10">
-<strong>{{ page.date | date: "%-d %B %Y" }}</strong>
+	<div class="container-fluid">
+		<div class="rows">
+			<div class="col-md-2">
+				
+				<ul>
+					<li> 
+						<a href="{{site.baseurl}}/index.html"  class = "btn btn-default" >Home</a>
+					</li>
+				</ul></div>
+				<br /><br /><br />
+				<div class="col-md-10">
+					<strong>{{ page.date | date: "%-d %B %Y" }}</strong>
 
-<!-- {% if page.path contains 'about' %} {% else %} <hr /> {% endif %} -->
-{% unless page.path contains 'about' %} <hr />  {% endunless %}
-<h3>{{page.title}}</h3>
-<hr />
-{{content}}
-</div>
-</div>
-</div>
-</body>
-</html>
+					<!-- {% if page.path contains 'about' %} {% else %} <hr /> {% endif %} -->
+					{% unless page.path contains 'about' or 'archived' %} <hr />  {% endunless %}
+					<h3>{{page.title}}</h3>
+					<hr />
+					{{content}}
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>

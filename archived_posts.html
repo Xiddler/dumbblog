@@ -1,0 +1,18 @@
+---
+layout: page
+pagination: 5
+---
+
+<ul>
+  {% for post in site.posts   %} 
+    
+    <li class="post">
+        
+        <h2>{{ post.title }}</h2>
+        <p>{{post.excerpt}}</p>
+    
+      <hr>
+      
+    </li>
+  {% endfor %}
+</ul>
