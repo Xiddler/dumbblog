@@ -14,6 +14,9 @@
 				<br /><br /><br />
 				<div class="col-md-10">
 					<strong>{{ page.date | date: "%-d %B %Y" }}</strong>
+					<!-- <h5>{{ site.time | | date_to_long_string }}</h5> -->
+					<h3>{{ site.time | | date_to_string }}</h3>
+
 
 					<!-- {% if page.path contains 'about' %} {% else %} <hr /> {% endif %} -->
 					{% unless page.path contains 'about' or 'archived' %} <hr />  {% endunless %}

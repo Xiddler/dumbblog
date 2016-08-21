@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/dumbblog/</link>
     <atom:link href="http://yourdomain.com/dumbblog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Aug 2016 13:18:01 +0100</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 13:18:01 +0100</lastBuildDate>
+    <pubDate>Sun, 21 Aug 2016 14:33:17 +0100</pubDate>
+    <lastBuildDate>Sun, 21 Aug 2016 14:33:17 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -22,6 +22,9 @@ But I got rusty.&lt;/p&gt;
 &lt;p&gt;jekyll build&lt;/p&gt;
 
 &lt;p&gt;C:\Users\Donagh\Documents\0_MyFolders\Computers_General\Git_Xiddler_Website\dumbblog_posts\2016-08-21-How-I-went-rusty.mdown –&amp;gt; .md&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sun, 21 Aug 2016 00:00:00 +0100</pubDate>
         <link>http://yourdomain.com/dumbblog/2016/08/21/How-I-went-rusty.html</link>
