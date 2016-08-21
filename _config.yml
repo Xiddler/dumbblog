@@ -15,5 +15,18 @@ markdown: kramdown
 exclude: ['README.md', '_site']
 paginate: 1 # this is just for an example
 
+#2016-08-21 following http://jekyll-windows.juthilo.com/3-syntax-highlighting/
 
+#highlighter: pygments 
+
+gems: [jekyll-paginate] 
+
+encoding: utf-8 
+
+#highlighter error
+#  Dependency Error: Yikes! It looks like you don't have pygments or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- pygments' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/!
+#  Liquid Exception: pygments in C:/Users/Donagh/Documents/0_MyFolders/Computers_General/Git_Xiddler_Website/dumbblog/_posts/2015-07-22-getting-better-looking-each-day.md
+#             ERROR: YOUR SITE COULD NOT BE BUILT:
+#                    ------------------------------------
+#                    pygments
 
