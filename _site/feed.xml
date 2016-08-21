@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/dumbblog/</link>
     <atom:link href="http://yourdomain.com/dumbblog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Aug 2016 12:55:59 +0100</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 12:55:59 +0100</lastBuildDate>
+    <pubDate>Sun, 21 Aug 2016 13:18:01 +0100</pubDate>
+    <lastBuildDate>Sun, 21 Aug 2016 13:18:01 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -32,14 +32,14 @@ But I got rusty.&lt;/p&gt;
     
       <item>
         <title>I Never Went Away</title>
-        <description>I was away doing a H Dip in Cloud Computing.
+        <description>&lt;p&gt;I was away doing a H Dip in Cloud Computing.
 Then I realised that I had been doing things before I left to do it.
-And I came back.
+And I came back.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 20 Aug 2016 00:00:00 +0100</pubDate>
-        <link>http://yourdomain.com/dumbblog/2016/08/20/I-never-went-away.mdown</link>
-        <guid isPermaLink="true">http://yourdomain.com/dumbblog/2016/08/20/I-never-went-away.mdown</guid>
+        <link>http://yourdomain.com/dumbblog/2016/08/20/I-never-went-away.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/dumbblog/2016/08/20/I-never-went-away.html</guid>
         
         
       </item>
