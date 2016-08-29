@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## A post for Monday
 I am editing this in prose.io just to see how easy the process is so that I can mayhaps sell the idea of CMS to a potential client.
